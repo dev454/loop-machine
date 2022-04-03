@@ -1,0 +1,38 @@
+#control-bar {
+    background: rgb(99, 187, 214);
+    margin: 1.5rem auto;
+    width: 90%;
+    text-align: center;
+    border-radius: 5rem;
+    height: 4rem;
+}
+
+.control-bar-btn {
+    width: 2rem;
+    height: 2rem;
+    margin: 1.1rem 0.5rem 0 2.2rem;
+}
+
+.control-bar-btn:hover {
+    color: #1d3994;
+}
+
+#play-stop-btns-container {
+    margin-left: 11rem;
+}
+
+#loop-label {
+    display: block;
+    font-size: 0.85rem;
+}
+
+#loop-btn-container {
+    float: right;
+    margin-right: 4rem;
+}
+
+@media screen and (max-width: 565px) {
+    #play-stop-btns-container {
+        margin: 0;
+    }
+}

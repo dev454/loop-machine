@@ -1,0 +1,65 @@
+.chanel-line {
+    height: 3rem;
+    margin: 0.4rem auto;
+    border-radius: 0.3rem;
+    max-width: 80%;
+}
+
+.chanel-line:hover {
+    opacity: 0.92;
+    animation-name: chanelHoverOpacity;
+    animation-duration: 0.2s;
+}
+
+.chanel-cursor {
+    width: 70%;
+    height: 100%;
+    margin-left: 11%;
+}
+
+.chanel-timer {
+    display: inline-block;
+    position: absolute;
+    margin-top: 14px;
+}
+
+.chanel-line:nth-of-type(1) {
+    background-color: #b7094c;
+}
+.chanel-line:nth-of-type(2) {
+    background-color: #a01a58;
+}
+.chanel-line:nth-of-type(3) {
+    background-color: #892b64;
+}
+.chanel-line:nth-of-type(4) {
+    background-color: #723c70;
+}
+.chanel-line:nth-of-type(5) {
+    background-color: #5c4d7d;
+}
+.chanel-line:nth-of-type(6) {
+    background-color: #455e89;
+}
+.chanel-line:nth-of-type(7) {
+    background-color: #2e6f95;
+}
+.chanel-line:nth-of-type(8) {
+    background-color: #1780a1;
+}
+.chanel-line:nth-of-type(9) {
+    background-color: #0091ad;
+}
+
+@media screen and (max-width: 838px) {
+    .chanel-cursor {
+        width: 57%;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .chanel-cursor {
+        margin-left: 18%;
+        width: 50%;
+    }
+}
